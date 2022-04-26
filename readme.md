@@ -50,7 +50,7 @@ Now load your key files into ssh-agent
 ```bash
 cd ~
 
-git clone https://github.com/m3Labs-io/dotfiles
+git clone https://github.com/magnusmccune/dotfiles
 ```
 
 ### Install OhMyPosh
