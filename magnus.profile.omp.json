@@ -16,9 +16,8 @@
         {
           "background": "#c386f1",
           "foreground": "#ffffff",
-          "leading_diamond": "\ue0b0",
           "style": "diamond",
-          "template": " {{ .UserName }} ",
+          "template": " {{ .HostName }} ",
           "trailing_diamond": "\ue0b0",
           "type": "session"
         },
