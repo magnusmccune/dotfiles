@@ -16,7 +16,7 @@
         {
           "background": "#c386f1",
           "foreground": "#ffffff",
-          "leading_diamond": "\ue0b6",
+          "leading_diamond": "\ue0b0",
           "style": "diamond",
           "template": " {{ .UserName }} ",
           "trailing_diamond": "\ue0b0",
