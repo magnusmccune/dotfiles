@@ -75,3 +75,16 @@ eval "$(oh-my-posh --init --shell bash --config ~/dotfiles/magnuslinux.profile.o
 ### Set TimeZone
 
  `sudo timedatectl set-timezone America/...`
+
+## MacOS
+
+Install HomeBrew and Dependencies
+```bash
+# Install Command Line Tools for Xcode
+sudo xcode-select --install
+
+#Install HomeBrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Add `/usr/local/bin` to global path `/etc/paths`
