@@ -3,6 +3,7 @@
   "blocks": [
     {
       "alignment": "left",
+      "newline": true,
       "segments": [
         {
           "background": "#ffb347",
@@ -151,6 +152,7 @@
       ],
       "type": "prompt"
     },
+    /* Temporarily removing the rprompt block
     {
       "segments": [
         {
@@ -171,7 +173,22 @@
           "type": "time"
         }
       ],
-      "type": "rprompt"
+      "type": "rprompt",
+      "newline": false
+    },
+    */
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#d75f00",
+          "style": "plain",
+          "template": "\u2570\u2500 {{ if .Root }}#{{else}}${{end}}",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
     }
   ],
   "console_title_template": "{{ .Shell }} in {{ .Folder }}",
