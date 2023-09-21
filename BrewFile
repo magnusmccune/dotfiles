@@ -32,6 +32,9 @@ brew "yadm"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "oh-my-posh"
+brew "libgcrypt"
+brew "maven"
+brew "gradle"
 
 # App casks
 cask "1password"
@@ -60,6 +63,7 @@ cask "drawio"
 cask "readdle-spark"
 cask "mimestream"
 cask "docker"
+cask "intellij-idea"
 
 # Font casks
 cask "font-fira-code-nerd-font"
