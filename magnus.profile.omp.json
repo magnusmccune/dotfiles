@@ -92,6 +92,18 @@
           "type": "python"
         },
         {
+          "background": "#4063D8",
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "display_mode": "files",
+            "fetch_virtual_env": false
+          },
+          "style": "powerline",
+          "template": "  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "java"
+        },
+        {
           "background": "#FEAC19",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
