@@ -116,18 +116,12 @@
           "type": "azfunc"
         },
         {
-          "background_templates": [
-            "{{if contains \"HiveQM\" .Profile}}#FFA400{{end}}",
-            "{{if contains \"M3\" .Profile}}#f1184c{{end}}"
-          ],
-          "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "display_default": false
-          },
+          "type": "aws",
           "style": "powerline",
-          "template": " \ue7ad {{ .Profile }}{{ if .Region }}@{{ .Region }}{{ end }} ",
-          "type": "aws"
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#FFA400",
+          "template": "{{.Profile}}@awscli"
         },
         {
           "background": "#ffff66",
