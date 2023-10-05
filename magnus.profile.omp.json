@@ -117,8 +117,8 @@
         },
         {
           "background_templates": [
-            "{{if contains \"default\" .Profile}}#FFA400{{end}}",
-            "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
+            "{{if contains \"HiveQM\" .Profile}}#FFA400{{end}}",
+            "{{if contains \"M3\" .Profile}}#f1184c{{end}}"
           ],
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
@@ -159,12 +159,11 @@
           "style": "diamond",
           "template": "<parentBackground>\ue0b0</> \ue23a ",
           "trailing_diamond": "\ue0b4",
-          "type": "exit"
+          "type": "status"
         }
       ],
       "type": "prompt"
     },
-    /* Temporarily removing the rprompt block
     {
       "segments": [
         {
@@ -188,7 +187,6 @@
       "type": "rprompt",
       "newline": false
     },
-    */
     {
       "alignment": "left",
       "newline": true,

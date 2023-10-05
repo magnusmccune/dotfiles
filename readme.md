@@ -88,3 +88,31 @@ sudo xcode-select --install
 ```
 
 Add `/usr/local/bin` to global path `/etc/paths`
+
+Update `.zshrc`
+
+```bash
+echo 'if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+    eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/magnusmccune/dotfiles/main/magnus.profile.omp.json')"
+#    eval "$(oh-my-posh init zsh --config '~/projects/personal/dotfiles/magnus.profile.omp.json')"
+fi' >> ~/.zshrc
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(jenv init -)"' >> ~/.zshrc
+echo 'alias d=docker
+alias h=helm
+alias k=kubectl
+alias t=terraform
+alias a=ansible
+alias mp=multipass' >> ~/.zshrc
+```
+
+Add to  ~/.gitconfig
+```
+[includeIf "gitdir:~/Projects/personal/"]
+	path = .gitconfig-personal
+git config -f ~/.gitconfig-personal user.email john.doe@personal.com
+```
+
+``` BASH
+ln -s /Users/$USER/projects/personal/dotfiles/BrewFile /Users/$USER/BrewFile
+```
