@@ -84,11 +84,11 @@
           "foreground": "#111111",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "display_mode": "files",
-            "fetch_virtual_env": false
+            "display_mode": "context",
+            "fetch_virtual_env": true
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
           "type": "python"
         },
         {
