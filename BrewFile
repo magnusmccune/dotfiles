@@ -1,8 +1,6 @@
 # Taps
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/cask-versions"
 tap "jandedobbeleer/oh-my-posh"
@@ -12,6 +10,8 @@ tap "hivemq/mqtt-cli"
 
 brew "awscli"
 brew "azure-cli"
+brew "python3"
+brew "virtualenv"
 brew "diff-so-fancy"
 brew "direnv"
 brew "gh"
@@ -44,7 +44,9 @@ brew "mqtt-cli"
 brew "ansible"
 brew "ansible-lint"
 brew "terraform"
-
+brew "git-flow"
+brew "protobuf"
+brew "act"
 
 # App casks
 cask "1password"
