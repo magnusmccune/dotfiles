@@ -124,6 +124,19 @@
           "template": "{{.Profile}}@awscli"
         },
         {
+          "type": "kubectl",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#000000",
+          "background": "#ebcc34",
+          "template": " \udb84\udcfe {{ .Context }}{{ if .Namespace }} :: {{ .Namespace }}{{ end }} ",
+          "properties": {
+            "context_aliases": {
+              "arn:aws:eks:eu-west-1:1234567890:cluster/posh": "posh"
+            }
+          }
+        },
+        {
           "background": "#ffff66",
           "foreground": "#111111",
           "powerline_symbol": "\ue0b0",
