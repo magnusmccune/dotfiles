@@ -127,8 +127,8 @@
           "type": "kubectl",
           "style": "powerline",
           "powerline_symbol": "",
-          "foreground": "#000000",
-          "background": "#ebcc34",
+          "foreground": "#ffffff",
+          "background": "#3f65e2",
           "template": " \udb84\udcfe {{ .Context }}{{ if .Namespace }} :: {{ .Namespace }}{{ end }} ",
           "properties": {
             "context_aliases": {
